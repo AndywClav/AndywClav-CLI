@@ -1,0 +1,31 @@
+{
+  "name": "@andywclav/awc-cli",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "CLI to automate and manage development setup.",
+  "main": "index.mts",
+  "preferGlobal": true,
+  "engines": {
+    "node": ">=18"
+  },
+  "bin": {
+    "awc-cli": "./index.mts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndywClav/AndywClav-CLI.git"
+  },
+  "keywords": [
+    "cli",
+    "command-line-interface",
+    "andywclav",
+    "developer-tools",
+    "productivity"
+  ],
+  "author": "AndywClav",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AndywClav/AndywClav-CLI/issues"
+  },
+  "homepage": "https://github.com/AndywClav/AndywClav-CLI#readme"
+}
