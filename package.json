@@ -5,6 +5,9 @@
   "description": "CLI to automate and manage development setup.",
   "main": "index.mts",
   "preferGlobal": true,
+  "scripts": {
+    "test": "echo \"No tests yet\""
+  },
   "engines": {
     "node": ">=18"
   },
