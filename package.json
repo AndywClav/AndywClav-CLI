@@ -3,16 +3,19 @@
   "type": "module",
   "version": "1.0.1",
   "description": "CLI to automate and manage development setup.",
-  "main": "index.mts",
+  "main": "./dist/index.mjs",
   "preferGlobal": true,
   "scripts": {
+    "build": "tsc",
+    "start": "node ./dist/index.mjs",
+    "dev": "tsx ./src/index.mts",
     "test": "echo \"No tests yet\""
   },
   "engines": {
     "node": ">=18"
   },
   "bin": {
-    "awc-cli": "./index.mts"
+    "awc-cli": "./dist/index.mjs"
   },
   "repository": {
     "type": "git",
@@ -30,5 +33,10 @@
   "bugs": {
     "url": "https://github.com/AndywClav/AndywClav-CLI/issues"
   },
-  "homepage": "https://github.com/AndywClav/AndywClav-CLI#readme"
+  "homepage": "https://github.com/AndywClav/AndywClav-CLI#readme",
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0",
+    "tsx": "^4.0.0"
+  }
 }
